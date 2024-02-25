@@ -26,7 +26,7 @@ namespace MentorBot
             return Task.CompletedTask;
         }
 
-        async static Task Update(ITelegramBotClient bot, Update update, CancellationToken token)
+        async static Task Update(ITelegramBotClient bot, Update update, CancellationToken token)//
         {
             var message = update.Message;
             if (message?.Text != null)
